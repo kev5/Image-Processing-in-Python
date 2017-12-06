@@ -35,5 +35,4 @@ Note: The SHA256 digest-
 Using the facilities of the hashlib module, we print out the SHA256 digest for the file created, so that the resultant text file does not have a long list of filenames.
 
 In Unix-based systems, the SHA256 digest (and others) can be calculated using-
-
 ```shasum -a 256 answers.txt```
