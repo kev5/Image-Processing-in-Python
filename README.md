@@ -29,3 +29,10 @@ rasberry0.png cher2.png grap5.png grape6.png
 ban1.png rasber8.png bana9.png
 grape3.png
 pear4.png rasber7.png```
+
+Note: The SHA256 digest-
+Using the facilities of the hashlib module, we print out the SHA256 digest for the file created, so that the resultant text file does not have a long list of filenames.
+
+In Unix-based systems, the SHA256 digest (and others) can be calculated using-
+
+```shasum -a 256 answers.txt```
